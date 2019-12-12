@@ -1,0 +1,19 @@
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\bin\Debug\teste.exe.config
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\bin\Debug\teste.exe
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\bin\Debug\teste.pdb
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\Ultimate PIM.csprojAssemblyReference.cache
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.Financas.resources
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.Veiculo.resources
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.Principal.resources
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.Login.resources
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.Properties.Resources.resources
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.Viagens.resources
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\Ultimate PIM.csproj.GenerateResource.cache
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\Ultimate PIM.csproj.CoreCompileInputs.cache
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.exe
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.pdb
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.Senha.resources
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.CadastrarAcesso.resources
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.Manutencao.resources
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.Contratante.resources
+C:\Users\rodri\OneDrive\Documentos\Visual Studio 2019\Projetos\teste\teste\obj\Debug\teste.Funcionario.resources
