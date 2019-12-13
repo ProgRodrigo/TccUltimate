@@ -1,0 +1,65 @@
+create database tcc
+use tcc
+
+create table Contratante(
+cod_contratante int primary key identity (1,1) not null,
+nome_contratante varchar(50) not null,
+cnpj_contratante char(20) not null,
+email_contratante varchar(50) not null,
+telefone_contratante char(15) not null,
+data_contratacao date not null
+)
+
+create table Funcionario(
+cod_funcionario int primary key identity(1,1) not null,
+cargo varchar(20) not null,
+nome_funcionario varchar(50) not null,
+dtnasc_funcionario date not null,
+cnh_funcionario varchar (11) not null,
+tel_funcionario char (15) not null,
+cpf_funcionario char (15) not null
+)
+
+
+create table Veiculo(
+placa_veiculo varchar(10) primary key not null,
+tipo_veiculo varchar(10) not null,
+modelo_veiculo varchar(40) not null,
+ano_veiculo numeric(4) not null,
+seguro_veiculo varchar(15) not null
+)
+create table Manutencao(
+cod_manutencao int primary key identity(1,1) not null,
+placa_veiculo varchar(10) FOREIGN KEY REFERENCES Veiculo(placa_veiculo) on delete cascade,
+data_manutencao date not null,
+manutencao_preventiva varchar(20) not null,
+status_manutencao varchar(20) not null,
+)
+create table Viagem(
+cod_viagem int primary key identity(1,1) not null,
+destino_viagem varchar(200) not null,
+reg_saida date not null,
+reg_entrada date not null,
+status_viagem varchar(20) not null,
+placa_veiculo varchar(10) FOREIGN KEY REFERENCES Veiculo(placa_veiculo),
+cod_contratante int FOREIGN KEY REFERENCES Contratante(cod_contratante) ON DELETE cascade,
+cod_funcionario int FOREIGN KEY REFERENCES Funcionario(cod_funcionario)ON DELETE cascade
+)
+
+create table Gastos(
+cod_gastos int not null primary key identity (1,1),
+gasolina float not null,
+pedagio float,
+data_multa date,
+valor_multa float,
+manutencao_corretiva float,
+cod_funcionario int FOREIGN KEY REFERENCES Funcionario(cod_funcionario),
+cod_viagem int FOREIGN KEY REFERENCES Viagem(cod_viagem)  ON DELETE cascade
+)
+create table Usuario(
+cod_usuario int not null PRIMARY KEY identity(1,1),
+usuario varchar(50) not null,
+senha varchar(12) not null
+)
+
+delete cascade em UM
