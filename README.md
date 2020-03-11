@@ -1,4 +1,4 @@
-# TccUltimate
+# Projeto ><
 GET TECH (Linguagem: C# / Banco de Dados: SQLSERVER)
 Algumas empresas trabalham de forma mais arcaica no que diz respeito ao
 armazenamento de suas informações, tendo como exemplo o armazenamento em planilhas de
